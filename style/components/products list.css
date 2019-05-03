@@ -1,0 +1,285 @@
+
+.product_list_bg {
+	padding: 20px 0 20px 20px;
+}
+
+.products_block {
+	width: 100%;
+}
+
+.content {
+	display: flex;
+	flex-wrap: wrap;
+	margin: 0 auto;
+	padding: 20px;
+}
+
+.item_block {
+	width: 18%;
+	height: 380px;
+	background-color: #fff;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: flex-end;
+	padding: 20px;
+	margin: 10px;
+}
+
+.item_block img, .item_block2 img {
+	width: 100%;
+	margin-bottom: 20px;
+}
+
+
+.item_block .text {
+	margin-top: 5px;
+	font-size: 11px;
+}
+
+.item_block .price, .item_block2 .price {
+	font-family: 'Staatliches', cursive;
+	font-size: 15px;
+	margin-top: 10px;
+}
+
+.sale {
+	width: 100%;
+	display: flex;
+	justify-content: center;
+}
+
+.old_price {
+	color: red;
+	text-decoration: line-through;
+	margin-left: 10px;
+}
+
+.indigo {
+	background-color: #383d68;
+	color: #fff;
+}
+
+.jacket {
+	background-image: url('../../images/img5.png'); 
+	background-size: cover; 
+	background-position: center;
+	background-repeat: no-repeat;
+	display: flex;
+	justify-content: flex-start;
+}
+
+.jacket .title {
+	font-size: 14px;
+	/*margin-top: 0;*/
+	/*margin-top: 10px;*/
+}
+
+.jacket .big_title {
+	font-size: 44px;
+	/*margin-top: 0;*/
+	/*margin-top: 10px;*/
+}
+
+.item_block .title {
+	margin-top: 20px;
+}
+
+.item_block2 {
+	width: 37.5%;
+	height: 380px;
+	background-color: #fff;
+	margin: 10px;
+}
+
+.item_block2 .text {
+	font-size: 11px;
+}
+
+.leather .biker {
+	font-size: 13px;
+	margin-bottom: -15px;
+}
+
+.leather .price, .simons .price {
+	font-size: 15px;
+
+}
+
+.tag {
+	width: 45px;
+	background-color: #83d78c;
+	font-family: 'Staatliches', cursive;
+	letter-spacing: 1px;
+	font-size: 12px;
+	color: #fff;
+	text-align: center;
+	border-radius: 35px;
+	padding: 5px;
+	margin-bottom: 50px;
+}
+
+.item_info {
+	width: 40%;
+	display: flex;
+	flex-direction: column;
+
+}
+
+.simons {
+	display: flex;
+	flex-direction: column;
+	justify-content: flex-start;
+	position: relative;
+}
+
+.simons_info {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+}
+
+.simons_info .price{
+	margin-bottom: 10px;
+}
+
+.simons img {
+	margin-bottom: 0;
+}
+
+.simons .tag {
+	position: absolute;
+	top: 5%;
+	left: 45%;
+}
+
+.simons .title {
+	margin-top: 25px;
+	margin-bottom: -5px;
+}
+
+.leather {
+	background-image: url('../../images/img6.png'); 
+	background-repeat: no-repeat;
+	display: flex;
+	justify-content: flex-end;
+	align-items: center;
+	position: relative;
+}
+
+.leather .tag {
+	position: absolute;
+	top: 5%;
+	/*margin-top: -60px;*/
+}
+
+.leather .title {
+	margin-bottom: -15px;
+}
+
+.gray {
+	display: flex;
+	justify-content: center;
+	align-content: center;
+	background-color: #333333;
+	color: #fff;
+}
+
+.gray .title {
+	font-size: 12px;
+	margin-top: 0;
+	margin-right: 10px;
+}
+
+.gray img {
+	width: 50%;
+	margin-top: 20px;
+}
+
+.brand {
+	width: 100%;
+	display: flex;
+	justify-content: flex-start;
+	align-items: center;
+}
+
+.brand a {
+	width: 61%;
+}
+
+.brand img {
+	width: 6%;
+	margin-left: 1px;
+}
+
+.heart, .vintage {
+	position: relative;
+}
+
+.tag2 {
+	width: 70px;
+	background-color: dodgerblue;
+	position: absolute;
+	top: 5%;
+}
+
+
+
+
+/*.item_block div img, .item_block2 div img {
+	width: 100%;
+	margin-bottom: 20px;
+}
+
+.item_block div .text {
+	margin-top: 5px;
+	font-size: 11px;
+}
+
+.item_block div .price, .item_block2 div .price {
+	font-family: 'Staatliches', cursive;
+	font-size: 15px;
+	margin-top: 10px;
+}*/
+
+
+
+@media (max-width: 1200px) {
+	.item_block {
+	    width: 22%;
+	}
+	.item_block2 {
+	    width: 46%;
+	}
+	.simons {
+		order: 8;
+	}
+	.gray {
+		order: 7;
+	}
+}
+
+@media (max-width: 768px) {
+	.item_block {
+	    width: 30%;
+	}
+	.item_block2 {
+	    width: 95%;
+	}
+	.gray {
+		order: 6;
+	}
+	.leather {
+		order: 7;
+	}
+}
+
+@media (max-width: 768px) {
+	.item_block {
+	    width: 45%;
+	}
+	.item_block2 {
+	    width: 93%;
+	}	
+}

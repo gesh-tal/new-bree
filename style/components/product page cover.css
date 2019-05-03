@@ -1,0 +1,69 @@
+
+.bg3 {
+	padding: 20px 0 20px 20px;
+}
+
+.bg3_top {
+	padding-top: 50px;
+}
+
+.bg3_bottom {
+	padding-bottom: 50px;
+}
+
+.bg3 .main {
+	padding: 60px 20px 60px 80px;
+}
+
+.main2 {
+	padding: 0px 80px 0px;
+}
+
+.bg3 .main_product {
+	justify-content: space-between;
+	align-items: center;
+}
+
+.bg3 .product_img img {
+    width: 90%;
+    margin-left: 30px;
+}
+
+.cart2 {
+	display: flex;
+	justify-content: space-around;
+	align-items: flex-start;
+}
+
+.cart2 .like {
+	margin-left: 10px;
+}
+
+.preview {
+	flex-direction: column;
+	margin-left: -40px;
+}
+
+.preview .product_size {
+	margin-bottom: 10px;
+}
+
+.desc {
+	font-size: 14px;
+	line-height: 1.8;
+	color: gray;
+}
+
+ul {
+	list-style-type: square;
+	list-style-position: inside;
+}
+
+.shoe .product_img img{
+	margin-left: 0;
+}
+
+.sweatshirt .product_img img{
+	width: 60%;
+	margin-left: 15%;
+}

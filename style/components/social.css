@@ -1,0 +1,121 @@
+/*@font-face {
+	font-family: DINNextLTPro-MediumCond;
+	src: url(fonts/DINNextLTPro-MediumCond.otf);
+}
+*/
+@import url('https://fonts.googleapis.com/css?family=Montserrat:400,700');
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:300,400,800');
+@import url('https://fonts.googleapis.com/css?family=Staatliches');
+/*
+font-family: 'Montserrat', sans-serif;
+font-family: 'Open Sans', sans-serif;
+font-family: 'Staatliches', cursive;
+*/
+
+
+.bg {
+	width: 100%;
+	height: 100%;
+	/*background-color: #c8cfdc;*/
+	background-color: rgb(196, 196, 196);
+	padding-top: 60px;
+}
+
+.block {
+	width: 90%;
+	height: 100%;
+	background-color: #fff;
+	/*padding-top: 40px;*/
+	margin: 0 auto;
+}
+
+.social {
+	width: 100%;
+	padding-top: 100px;
+}
+
+.social_block {
+	display: flex;
+	flex-direction: column;
+}
+
+.social_title {
+	font-family: 'Staatliches';
+	font-size: 14px;
+	/*font-weight: bold;*/
+	padding-left: 50px;
+	margin-bottom: 10px
+}
+
+.social_block .title {
+	font-family: 'Staatliches', cursive;
+	font-size: 18px;
+	font-weight: bold;
+	padding-left: 50px;
+	margin-bottom: 30px
+}
+
+.social_gallery {
+	display: flex;
+	justify-content: center;
+	margin-bottom: 150px;
+}
+
+.gallery_item {
+	width: 22%;
+	height: 260px;
+	background-size: cover;
+	background-position: center;
+	margin: 7px;
+	position: relative;
+}
+@media (max-width: 1200px) {
+	.gallery_item {
+		height: 230px;
+	}
+}
+@media (max-width: 960px) {	
+	.social_gallery {
+		flex-wrap: wrap;
+		justify-content: space-evenly;
+	}
+	.gallery_item {
+		width: 40%;
+		height: 260px;
+	}
+}
+@media (max-width: 768px) {
+	.bg {
+		padding-top: 0;
+	}
+
+}
+
+@media (max-width: 660px) {
+	.social {
+		padding-top: 50px;
+	}
+	.social_gallery {
+		margin-bottom: 40px;
+	}
+	.gallery_item {
+		height: 200px;
+	}
+}
+
+@media (max-width: 425px) {
+	.gallery_item {
+		height: 150px;
+	}
+}
+
+@media (max-width: 375px) {
+	.gallery_item {
+		width: 70%;
+	}
+}
+
+
+
+
+

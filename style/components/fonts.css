@@ -1,0 +1,28 @@
+@font-face {
+	font-family: '';
+	src: url('../fonts/.ttf');
+}
+
+@font-face {
+	font-family: '';
+	src: url('../fonts/.ttf');
+}
+
+@font-face {
+	font-family: '';
+	src: url('../fonts/.ttf');
+}
+
+@font-face {
+	font-family: '';
+	src: url('../fonts/.ttf');
+}
+
+@import url('https://fonts.googleapis.com/css?family=Montserrat:400,700');
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:300,400,800');
+@import url('https://fonts.googleapis.com/css?family=Staatliches');
+/*
+font-family: 'Montserrat', sans-serif;
+font-family: 'Open Sans', sans-serif;
+font-family: 'Staatliches', cursive;
+*/
